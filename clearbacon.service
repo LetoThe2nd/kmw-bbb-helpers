@@ -1,0 +1,9 @@
+[Unit]
+Description=Turn off 7seg on bacon cape
+ 
+[Service]
+ExecStart=/usr/bin/clearbacon.sh
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target
