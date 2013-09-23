@@ -1,0 +1,9 @@
+[Unit]
+Description=Prepare pinmux for the RGB led
+ 
+[Service]
+ExecStart=/usr/bin/setrgbmux.sh
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target
